@@ -6,7 +6,7 @@ from langchain_openai import ChatOpenAI
 llm = ChatOpenAI(
     model="deepseek-chat",  # 模型名称固定
     base_url="https://api.deepseek.com/v1",  # 官方接口地址
-    temperature=0.8,
+    temperature=0.6,
 )
 
 # 测试调用
