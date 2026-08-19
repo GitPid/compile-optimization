@@ -7,8 +7,8 @@
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Clone and setup
-git clone https://github.com/RightNow-AI/autokernel.git
-cd autokernel
+git clone https://github.com/GitPid/compile-optimization.git
+cd compile-optimization
 uv sync
 
 # One-time setup: test data + baselines
